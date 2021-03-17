@@ -1,17 +1,17 @@
 import React from 'react';
 import '../../App.css';
-import Navbar from '../Navbar';
-import MainBlock from '../MainBlock';
+import Navbar from '../Navbar'
+import CitySearch from '../CitySearch';
 import Footer from '../Footer';
 
-function Home() {
+function SearchByCity() {
   return (
     <>
       <Navbar />
-      <MainBlock />
+      <CitySearch />
       <Footer />
     </>
   );
 }
 
-export default Home;
+export default SearchByCity;

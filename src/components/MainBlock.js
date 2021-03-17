@@ -1,9 +1,9 @@
 import React from 'react';
 import '../App.css';
 import { Button } from './Button';
-import './HeroSection.css';
+import './MainBlock.css';
 
-function HeroSection() {
+function MainBlock() {
   return (
     <div className='hero-container'>
       <video src='./videos/video-2.mp4' autoPlay loop muted />
@@ -21,7 +21,6 @@ function HeroSection() {
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
-          onClick={console.log('hey')}
         >
           SEARCH BY COUNTRY
         </Button>
@@ -30,4 +29,4 @@ function HeroSection() {
   );
 }
 
-export default HeroSection;
+export default MainBlock;
