@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 import { Button } from './Button';
-import './CountrySearch.css';
+import './MainBlock.css';
 
 function HeroSection() {
   return (

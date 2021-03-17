@@ -5,7 +5,7 @@ import Footer from '../Footer';
 
 export default function AboutUs() {
   return (
-    <div style={{backgroundImage: "url(./images/img-home.jpg)" }}>
+    <div style={{backgroundImage: "url(./images/img-1.jpg)" }}>
       <Navbar />
       <h1 className='about-us'>About Us</h1>;
       <Footer />

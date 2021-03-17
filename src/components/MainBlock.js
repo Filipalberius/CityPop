@@ -6,7 +6,7 @@ import './MainBlock.css';
 function MainBlock() {
   return (
     <div className='hero-container'>
-      <video src='./videos/video-2.mp4' autoPlay loop muted />
+      <video src='./videos/stars.mp4' autoPlay loop muted />
       <h1>CITY POPULATION</h1>
       <p>Find population data by City or Country</p>
       <div className='hero-btns'>
